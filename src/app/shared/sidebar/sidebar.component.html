@@ -1,0 +1,25 @@
+<h2 class="text-center">Busquedas</h2>
+<hr>
+<ul class="list-group">
+  <li 
+    class="list-group-item" 
+    routerLink=""
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{exact: true}" >
+    <!-- se le pone router link y la clase en este caso active para que pinte 
+    y el routerlinkactive es para que no quede seleccionado debida a nuestro full en el routing module -->
+    Buscar País
+  </li>
+  <li
+    class="list-group-item " 
+    routerLink="region"
+    routerLinkActive="active" >
+    Por Región
+  </li>
+  <li 
+    class="list-group-item"
+    routerLink="capital"
+    routerLinkActive="active" >
+    Por Capital
+  </li>
+</ul>
